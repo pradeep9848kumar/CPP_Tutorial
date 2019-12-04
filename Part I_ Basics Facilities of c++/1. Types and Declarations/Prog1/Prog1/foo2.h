@@ -1,1 +1,0 @@
-void foo2func(void);

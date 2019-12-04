@@ -1,0 +1,23 @@
+In this file we will learn how to install one of c/c++ complier in window.
+
+Compiler: Mingw
+
+download MinGW Installation Manager (mingw-get) from https://osdn.net/projects/mingw/releases/ 
+its normal windows install.
+select mingw32-gcc-g++-bin package in Basic Setup
+select Installation in menue bar click Apply changes
+
+I am using Notepad++ as editor.
+Download and install it.  We will also use compile programs from Notepad++.
+
+After Installing Notepad++, We need to add new plugin from NppExec.
+To get NppExec follow below steps.
+as shown in this videos https://www.youtube.com/watch?v=zLpaYVIoXqc
+
+npp_save
+cd "$(CURRENT_DIRECTORY)"
+g++ "$(FILE_NAME)" -o $(NAME_PART) -march=native -O3
+NPP_RUN $(NAME_PART)
+
+
+
